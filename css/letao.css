@@ -1,0 +1,303 @@
+/*顶部*/
+.mui-bar{
+    height: 45px;
+    background-color: #046691;
+}
+.mui-bar h1{
+    color: #fff;
+}
+.header-search{
+   margin-right: 10px;
+}
+.header{
+    position: relative;
+    position: fixed;
+}
+.header .header-search{
+    position: absolute;
+    top:15px;
+    right:10px;
+    color: white;
+}
+/*底部*/
+nav .mui-item{
+    display: table-cell;
+    width: 1%;
+    height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    color: #fff;
+}
+nav .mui-item.mui-active {
+    color: orange;
+}
+nav .mui-item span[class^='mui']{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+
+#slider{
+    margin-top: 50px;
+}
+/*九宫格----6*/
+.mui-content{
+    width: 100%;
+    padding: 0 10px;
+}
+.mui-content ul{
+    width: 100%;
+
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell>a:not(.mui-btn) {
+    margin: 0;
+    padding: 0 0;
+}
+.mui-content ul li img{
+    width: 100%;
+    vertical-align: middle;
+}
+.mui-bar-tab~.mui-content {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+/*九宫格---5*/
+/*.mui-content1{*/
+    /*width: 100%;*/
+    /*padding: 0 10px;*/
+/*}*/
+/*.mui-content1 ul{*/
+    /*width: 100%;*/
+    /*position: relative;*/
+/*}*/
+/*.mui-content1 ul li img{*/
+    /*width: 100%;*/
+    /*vertical-align: middle;*/
+/*}*/
+/*.mui-content1 ul li:nth-child(4){*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+/*}*/
+/*.mui-content1 ul li:nth-child(5){*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 117px;*/
+/*}*/
+
+
+
+
+.pinpai{
+    width: 100%;
+    padding: 0 10px;
+    padding-top: 10px;
+}
+.pinpai img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+/*九宫格----8*/
+.mui-content2{
+    width: 100%;
+    padding: 0 10px;
+}
+.mui-content2 ul{
+    width: 100%;
+    position: relative;
+}
+.mui-content2 ul li{
+    width: 25%;
+    /*position: relative;*/
+}
+.mui-content2 ul li img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pinpai1{
+    width: 100%;
+    padding: 0 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.pinpai1 img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.mui-table-view-cell .mui-media .mui-col-xs-4 .mui-col-sm-3{
+
+}
+.mui-content3{
+    width: 100%;
+}
+.mui-content3>ul{
+    width: 100%;
+
+}
+.mui-content3>ul>li{
+    width: 50%;
+
+}
+/*.mui-table-view-cell .mui-media .mui-col-xs-4 .mui-col-sm-3{*/
+    /*width: 50%;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+.content{
+    margin-top: -20px;
+    padding: 0 15px;
+    height: 700px;
+    /*text-align: center;*/
+}
+.content .sort img{
+    width: 96%;
+    /*margin-left: 7px;*/
+    margin-top: 0;
+}
+.content .goods{
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.content .goods div{
+    width: 50%;
+    float: left;
+}
+.content .goods div img{
+    width: 100%;
+}
+.content .goods div .p1{
+    color: #8f8f94;
+    margin: 0 15px;
+    font-size: 16px;
+}
+.content .goods div .p2{
+    margin: 20px 20px;
+}
+.content .goods div .p2 span:first-child{
+    color: red;
+}
+.content .goods div .p2 span:last-child{
+    text-decoration: line-through;
+}
+.content .goods_1{
+    text-align: center;
+}
+.content .goods div button{
+    display: inline-block;
+    padding: 0 5px;
+    /*padding-left: 55px;*/
+    /*margin-left: 55px;*/
+    text-align: center;
+    background-color: #006699;
+    border: 1px solid #006699;
+    color: white;
+    width: 70px;
+    height: 30px;
+}
+
+
+
+
+
+
+.content .sort{
+    width: 100%;
+    height: 187px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.content .sort .container{
+    width: 98%;
+    margin-left: 22px;
+    background-color: blue;
+}
+.content .sort .container img{
+    width: 30%;
+    float: left;
+}
+
+
+
+.content .ad{
+    margin-top: 20px;
+}
+.content .ad .container{
+    width: 88%;
+    height: 207px;
+    margin-left: 22px;
+    overflow: hidden;
+}
+.content .ad .ad_left{
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+.content .ad .ad_left .ad_top img{
+    float: left;
+}
+.content .ad .ad_left .ad_bottom img{
+    float: left;
+}
+.content .ad .ad_right{
+    width: 30%;
+    float: right;
+    overflow: hidden;
+}
+.content .ad .ad_left img{
+    width: 50%;
+}
+.content .ad .ad_right img{
+    width: 100%;
+}
+
+
+

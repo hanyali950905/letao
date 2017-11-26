@@ -1,0 +1,98 @@
+/*顶部*/
+.mui-bar{
+    height: 45px;
+    background-color: #046691;
+}
+.mui-bar h3{
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    margin-top: -20px;
+}
+.mui-bar .fa-arrow-left{
+    color: #fff;
+    padding-top: 13px;
+}
+.header-search{
+    margin-right: 10px;
+}
+.header{
+    position: relative;
+}
+.header .header-search{
+    position: absolute;
+    top:15px;
+    right:10px;
+    color: white;
+}
+/*底部*/
+nav .mui-item{
+    display: table-cell;
+    width: 1%;
+    height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    color: #fff;
+}
+nav .mui-item.mui-active {
+    color: orange;
+}
+nav .mui-item span[class^='mui']{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+.mui-table-view li .mui-navigate-right{
+    white-space: normal;
+    padding-right: 40px;
+    color: black;
+    overflow: hidden;
+}
+.mui-table-view li .mui-navigate-right .info{
+    float: left;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.mui-5{
+    width: 100%;
+    padding: 15px 15px;
+}
+.mui-5 input{
+    width: 100%;
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.mui-navigate-right:after, .mui-push-right:after {
+    right: 15px;
+    content: '';
+}
+.mui-icon-back:before, .mui-icon-left-nav:before {
+    content: '';
+}
+.mui-navigate-right{
+    position: relative;
+}
+.mui-navigate-right .fa-angle-right{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    color: #ccc;
+    font-size: 20px;
+}
+.mui-navigate-right .span{
+    top:30px;
+}
+
+
+
+
+
+
+

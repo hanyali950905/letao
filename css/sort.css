@@ -1,0 +1,138 @@
+/*顶部*/
+.mui-bar{
+    height: 45px;
+    background-color: #046691;
+}
+.mui-bar .mui-input-row{
+    position: relative;
+}
+
+/*.mui-bar h1{*/
+    /*color: #fff;*/
+    /*font-weight: normal;*/
+    /*text-align: center;*/
+    /*margin-top: -20px;*/
+/*}*/
+.mui-bar .fa-arrow-left{
+    color: #fff;
+    /*margin-left: 0;*/
+    position: absolute;
+    left:0;
+    top: 14px;
+}
+
+.header-search{
+    margin-right: 10px;
+}
+.header{
+    position: relative;
+}
+.header .fa{
+    width: 10px;
+    height: 10px;
+}
+.header .header-search{
+    position: absolute;
+    top:15px;
+    right:10px;
+    color: white;
+}
+/*底部*/
+nav .mui-item{
+    display: table-cell;
+    width: 1%;
+    height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    color: #fff;
+}
+nav .mui-item.mui-active {
+    color: orange;
+}
+nav .mui-item span[class^='mui']{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+.header .mui-password{
+    text-align: center;
+}
+
+.header .mui-password .mui-input-password{
+    width: 240px;
+    height: 30px;
+    margin-top: 7px;
+}
+.mui-icon-eye:before {
+    content: '';
+}
+
+
+.mui-icon-back:before, .mui-icon-left-nav:before {
+    content: '';
+}
+
+
+
+.mui-segmented-control {
+    font-size: 15px;
+    font-weight: 400;
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid #007aff;
+    border-radius: 3px;
+    background-color: transparent;
+    -webkit-touch-callout: none;
+}
+.mui-col-xs-3 .mui-segmented-control a{
+    width: 100%;
+}
+
+.mui-col-xs-9 .mui-control-content ul{
+    width: 100%;
+    /*height: 150px;*/
+    margin-left: 10px;
+}
+.mui-col-xs-9 .mui-control-content li{
+    width: 33.333%;
+    float: left;
+}
+.mui-col-xs-9 .mui-control-content li img{
+    width: 100%;
+    /*height: 50px;*/
+    vertical-align: middle;
+}
+.mui-col-xs-9 .mui-control-content li a{
+    padding: 0;
+    margin-bottom: -15px;
+}
+.mui-table-view-cell:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 15px;
+    /*height: 1px;*/
+    /*content: '';*/
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #c8c7cc;
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    /*border-right: 1px solid #eee;*/
+    /*border-bottom: 1px solid #eee;*/
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell>a:not(.mui-btn) {
+    margin: 0;
+    padding: 0;
+}
+
+

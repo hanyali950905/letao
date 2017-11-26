@@ -1,0 +1,108 @@
+/*顶部*/
+.mui-bar{
+    height: 45px;
+    background-color: #046691;
+}
+.mui-bar h3{
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    margin-top: -20px;
+}
+.mui-bar .fa-arrow-left{
+    color: #fff;
+}
+.header-search{
+    margin-right: 10px;
+}
+.header{
+    position: relative;
+}
+.header .header-search{
+    position: absolute;
+    top:15px;
+    right:10px;
+    color: white;
+}
+/*底部*/
+nav .mui-item{
+    display: table-cell;
+    width: 1%;
+    height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    color: #fff;
+}
+nav .mui-item.mui-active {
+    color: orange;
+}
+nav .mui-item span[class^='mui']{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+/*.mui-icon-back:before, .mui-icon-left-nav:before {*/
+    /*content: '';*/
+/*}*/
+/*input框*/
+.mui-password{
+    padding: 10px 15px;
+    position: relative;
+}
+.mui-password .fa-eye{
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    color: #9a9791;
+}
+
+
+.mui-4{
+    padding: 0 15px;
+    width: 100%;
+    position: relative;
+}
+.mui-4 .mui-input-password{
+    width: 60%;
+}
+.mui-5{
+    width: 100%;
+    padding: 0 15px;
+}
+.mui-5 input{
+    width: 100%;
+    /*padding: 0 30px;*/
+}
+.mui-4 .button{
+    position: absolute;
+    right: 15px;
+    width: 30%;
+    /*margin-left: 25px;*/
+    padding: 9px 0;
+    background-color: #0c7afe;
+    color: white;
+}
+.mui-6{
+    width: 100%;
+    padding: 30px 15px;
+    position: relative;
+}
+.mui-6 a{
+    position: absolute;
+    right: 15px;
+}
+.mui-6 input{
+    width: 18px;
+    height: 15px;
+}
